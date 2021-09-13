@@ -1,0 +1,33 @@
+[
+    {
+      "pk": 1,
+      "model": "products.category",
+      "fields": {
+        "name": "portraiture",
+        "friendly_name": "Portraiture"
+      }
+    },
+    {
+      "pk": 2,
+      "model": "products.category",
+      "fields": {
+        "name": "street_work",
+        "friendly_name": "Street Photography"
+      }
+    },
+    {
+      "pk": 3,
+      "model": "products.category",
+      "fields": {
+        "name": "events",
+        "friendly_name": "Events"
+      }
+    },
+    {
+      "pk": 4,
+      "model": "products.category",
+      "fields": {
+        "name": "fine_art",
+        "friendly_name": "Fine Art"
+      }
+    }]

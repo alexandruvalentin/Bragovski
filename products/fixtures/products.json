@@ -1,0 +1,231 @@
+[{
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "name": "Vasile Mureșan",
+            "price": 53.99,
+            "category": 1,
+            "image": "vasile_muresan.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "name": "Tosam Melvis",
+            "price": 53.99,
+            "category": 1,
+            "image": "tosam_melvis.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "name": "Tomas Mocanu",
+            "price": 53.99,
+            "category": 1,
+            "image": "tomas_mocanu.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+            "name": "Tavi Voina",
+            "price": 53.99,
+            "category": 1,
+            "image": "tavi_voina.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+            "name": "Stanca",
+            "price": 53.99,
+            "category": 1,
+            "image": "stanca.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+            "name": "Ocru",
+            "price": 53.99,
+            "category": 1,
+            "image": "ocru.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.product",
+        "fields": {
+            "name": "Miruna Lazăr",
+            "price": 53.99,
+            "category": 1,
+            "image": "miruna_lazar.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.product",
+        "fields": {
+            "name": "Mihaela Giuran",
+            "price": 53.99,
+            "category": 1,
+            "image": "mihaela_giuran.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.product",
+        "fields": {
+            "name": "Macanache",
+            "price": 53.99,
+            "category": 1,
+            "image": "macanache.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.product",
+        "fields": {
+            "name": "Luis Drăjan",
+            "price": 53.99,
+            "category": 1,
+            "image": "luis_drajan.jpg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.product",
+        "fields": {
+            "name": "Luana Șeu",
+            "price": 53.99,
+            "category": 1,
+            "image": "luana_seu.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.product",
+        "fields": {
+            "name": "Lela Gherman & Oana Nistor",
+            "price": 53.99,
+            "category": 1,
+            "image": "lela_oana.jpg"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.product",
+        "fields": {
+            "name": "Leeja",
+            "price": 53.99,
+            "category": 1,
+            "image": "leeja.jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.product",
+        "fields": {
+            "name": "Keed",
+            "price": 53.99,
+            "category": 1,
+            "image": "keed.jpg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.product",
+        "fields": {
+            "name": "Iulia Maria",
+            "price": 53.99,
+            "category": 1,
+            "image": "iulia_maria.jpg"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.product",
+        "fields": {
+            "name": "Hervé Bossy",
+            "price": 53.99,
+            "category": 1,
+            "image": "herve_bossy.jpg"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.product",
+        "fields": {
+            "name": "Harry Macqueen",
+            "price": 53.99,
+            "category": 1,
+            "image": "harry_macqueen.jpg"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.product",
+        "fields": {
+            "name": "Georgiana Saraev",
+            "price": 53.99,
+            "category": 1,
+            "image": "georgiana_saraev.jpg"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.product",
+        "fields": {
+            "name": "Edina Bodor",
+            "price": 53.99,
+            "category": 1,
+            "image": "edina_bodor.jpg"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.product",
+        "fields": {
+            "name": "Cristian Ciote",
+            "price": 53.99,
+            "category": 1,
+            "image": "cristian_ciote.jpg"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.product",
+        "fields": {
+            "name": "Bogdan Fetea",
+            "price": 53.99,
+            "category": 1,
+            "image": "bogdan_fetea.jpg"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.product",
+        "fields": {
+            "name": "Arina Vasiliu",
+            "price": 53.99,
+            "category": 1,
+            "image": "arina_vasiliu.jpg"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.product",
+        "fields": {
+            "name": "Alexandru Ivănoiu",
+            "price": 53.99,
+            "category": 1,
+            "image": "alexandru_ivanoiu.jpg"
+        }
+    }
+]
