@@ -227,5 +227,145 @@
             "category": 1,
             "image": "alexandru_ivanoiu.jpg"
         }
+    },
+    {
+        "pk": 24,
+        "model": "products.product",
+        "fields": {
+            "name": "Sidewalk Backgammon",
+            "price": 53.99,
+            "category": 2,
+            "image": "backgammon.jpg"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.product",
+        "fields": {
+            "name": "Books For All",
+            "price": 53.99,
+            "category": 2,
+            "image": "books.jpg"
+        }
+    },
+    {
+        "pk": 26,
+        "model": "products.product",
+        "fields": {
+            "name": "Concrete Beach",
+            "price": 53.99,
+            "category": 2,
+            "image": "concrete_beach.jpg"
+        }
+    },
+    {
+        "pk": 27,
+        "model": "products.product",
+        "fields": {
+            "name": "Knee-Chest AM",
+            "price": 53.99,
+            "category": 2,
+            "image": "nap.jpg"
+        }
+    },
+    {
+        "pk": 28,
+        "model": "products.product",
+        "fields": {
+            "name": "Big Spender",
+            "price": 53.99,
+            "category": 2,
+            "image": "gentleman.jpg"
+        }
+    },
+    {
+        "pk": 29,
+        "model": "products.product",
+        "fields": {
+            "name": "Gipsy Lady",
+            "price": 53.99,
+            "category": 2,
+            "image": "gipsy_lady.jpg"
+        }
+    },
+    {
+        "pk": 30,
+        "model": "products.product",
+        "fields": {
+            "name": "Mirror, Mirror",
+            "price": 53.99,
+            "category": 2,
+            "image": "mirror_horse.jpg"
+        }
+    },
+    {
+        "pk": 31,
+        "model": "products.product",
+        "fields": {
+            "name": "Ladies&Flowers Still Bloom In B&W",
+            "price": 53.99,
+            "category": 2,
+            "image": "old_lady.jpg"
+        }
+    },
+    {
+        "pk": 32,
+        "model": "products.product",
+        "fields": {
+            "name": "Late Night Hangout",
+            "price": 53.99,
+            "category": 2,
+            "image": "people_of_bucharest.jpg"
+        }
+    },
+    {
+        "pk": 33,
+        "model": "products.product",
+        "fields": {
+            "name": "Street Market One",
+            "price": 53.99,
+            "category": 2,
+            "image": "street_market1.jpg"
+        }
+    },
+    {
+        "pk": 34,
+        "model": "products.product",
+        "fields": {
+            "name": "Street Market Two",
+            "price": 53.99,
+            "category": 2,
+            "image": "street_market2.jpg"
+        }
+    },
+    {
+        "pk": 35,
+        "model": "products.product",
+        "fields": {
+            "name": "Human Beauty",
+            "price": 53.99,
+            "category": 2,
+            "image": "street_worker.jpg"
+        }
+    },
+    {
+        "pk": 36,
+        "model": "products.product",
+        "fields": {
+            "name": "Sunny Concrete Beach",
+            "price": 53.99,
+            "category": 2,
+            "image": "sunny_beach.jpg"
+        }
+    },
+    {
+        "pk": 37,
+        "model": "products.product",
+        "fields": {
+            "name": "Work Hard",
+            "price": 53.99,
+            "category": 2,
+            "image": "worker.jpg"
+        }
     }
 ]
