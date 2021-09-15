@@ -1,22 +1,54 @@
 <div class="collapse navbar-collapse" id="main-nav">
     <ul class="navbar-nav w-auto mx-auto">
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link"
+            <a class="logo-font font-weight-bold nav-link text-black ml-2 mr-2" href="#" id="all-products-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Photography
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item ">By Category</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Photographies</a>
+                <a href="" class="dropdown-item ">Portraiture</a>
+                <a href="{% url 'products' %}" class="dropdown-item">Street Work</a>
             </div>
         </li>
 
         <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link">
-                Portraiture</a>
+            <a class="logo-font font-weight-bold nav-link text-black ml-2 mr-2" href="#" id="studio-link">
+                Studio</a>
         </li>
 
         <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link">
-                Street Work</a>
+            <a class="logo-font font-weight-bold nav-link text-black ml-2 mr-2" href="#" id="about-link">
+                About</a>
         </li>
+
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black ml-2 mr-2" href="#" id="contact-link">
+                Contact</a>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black ml-2 mr-2" href="#" id="follow-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Follow
+            </a>
+            <div class="dropdown-menu follow-links border-0" aria-labelledby="follow-link">
+                <a href="https://www.instagram.com/bragovski/" class="dropdown-item" target="_blank">
+                    <span class="icon">
+                        <i class="fab fa-instagram fa-lg"></i>
+                    </span>
+                </a>
+                <a href="https://www.youtube.com/channel/UCr-fqm1rFh3i8MC1MimMQtA" class="dropdown-item"
+                    target="_blank">
+                    <span class="icon">
+                        <i class="fab fa-youtube fa-lg"></i>
+                    </span>
+                </a>
+                <a href="mailto:bragovski@gmail.com" class="dropdown-item" target="_blank">
+                    <span class="icon">
+                        <i class="far fa-envelope fa-lg"></i>
+                    </span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
