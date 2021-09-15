@@ -6,8 +6,8 @@
                 Photography
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item ">Portraiture</a>
-                <a href="{% url 'products' %}" class="dropdown-item">Street Work</a>
+                <a href="{% url 'products' %}?category=portraiture" class="dropdown-item ">Portraiture</a>
+                <a href="{% url 'products' %}?category=street_work" class="dropdown-item">Street Work</a>
             </div>
         </li>
 
