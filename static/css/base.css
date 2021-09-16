@@ -74,6 +74,12 @@ body {
     z-index: -1;
 }
 
+.btn-outline-black {
+    background: #fff;
+    color: #000 !important;
+    border: 1px solid #000;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
