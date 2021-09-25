@@ -6,7 +6,8 @@
 <div class="container-fluid header-container pt-2 pb-2">
     <div class="row px-5">
         <div class="col">
-            <h2 class="header-font">Products</h2>
+            <h2 class="header-font">Photography >
+                {% if request.get_full_path == '/products/?category=portraiture' %}Portraiture{% else %}Street Work{% endif %}</h2>
         </div>
     </div>
 </div>

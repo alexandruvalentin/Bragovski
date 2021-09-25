@@ -9,6 +9,7 @@ def all_products(request):
 
     products = Product.objects.all()
     categories = None
+    current_url = request.get_full_path
 
     if request.GET:
         if 'category' in request.GET:
