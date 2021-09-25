@@ -4,19 +4,19 @@
 
 {% block content %}
 <div class="overlay"></div>
-<div class="container mb-2">
-    <div class="row">
+<div class="container-fluid header-container pt-2 pb-2">
+    <div class="row px-5">
         <div class="col">
-            <hr>
-            <h2 class="logo-font mb-4">Shopping Bag</h2>
-            <hr>
+            <h2 class="header-font">Shopping Bag</h2>
         </div>
     </div>
+</div>
+<div class="container">
     <div class="col">
         {% if bag_items %}
         <div class="table-responsive rounded">
             <table class="table table-sm table-borderless">
-                <thead class="text-black">
+                <thead class="text-white">
                     <tr>
                         <th scope="col"></th>
                         <th scope="col">Item</th>
@@ -28,33 +28,33 @@
                 </thead>
                 {% for item in bag_items %}
                 <tr>
-                    <td class="py-3 align-middle text-center">
+                    <td class="py-3 align-middle text-center text-white">
                         <a class="remove-item" id="remove_{{ item.item_id }}"><i class="fas fa-times fa-lg my-auto"></i></a>
                     </td>
                     <td class="p-3 w-25">
                         <img class="img-fluid rounded" src="{{ item.product.image.url }}">
                     </td>
-                    <td class="py-3 align-middle">
+                    <td class="py-3 align-middle text-white">
                         <p class="my-0"><strong>{{ item.product.name }}</strong></p>
                     </td>
-                    <td class="py-3 align-middle">
+                    <td class="py-3 align-middle text-white">
                         <p class="my-0">${{ item.product.price }}</p>
                     </td>
-                    <td class="py-3 align-middle">
+                    <td class="py-3 align-middle text-white">
                         <p class="my-0">{{ item.quantity }}</p>
                     </td>
-                    <td class="py-3 align-middle">
+                    <td class="py-3 align-middle text-white">
                         <p class="my-0">${{ item.product.price | calc_subtotal:item.quantity }}</p>
                     </td>
                 </tr>
                 {% endfor %}
                 <tr>
-                    <td colspan="5" class="pt-5 text-right">
+                    <td colspan="5" class="pt-5 text-right text-white">
                         <h6><strong>Bag Total: ${{ total|floatformat:2 }}</strong></h6>
                         <h6>Delivery: ${{ delivery|floatformat:2 }}</h6>
-                        <h4 class="mt-4"><strong>Grand Total: ${{ grand_total|floatformat:2 }}</strong></h4>
+                        <h4 class="mt-4 text-white"><strong>Grand Total: ${{ grand_total|floatformat:2 }}</strong></h4>
                         {% if free_delivery_delta > 0 %}
-                        <p class="mb-1 text-danger">
+                        <p class="mb-1 text-danger text-white">
                             You could get free delivery by spending just <strong>${{ free_delivery_delta }}</strong>
                             more!
                         </p>
