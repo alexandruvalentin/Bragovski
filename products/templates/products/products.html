@@ -36,6 +36,12 @@
                                 <div class="col">
                                     <a href="{% url 'product_detail' product.id %}" class="btn btn-lg btn-black rounded-0 text-uppercase py-1 mb-0">Purchase
                                         Print</a>
+                                    {% if request.user.is_superuser %}
+                                    <small class="ml-3">
+                                        <a href="{% url 'edit_product' product.id %}">Edit</a> |
+                                        <a href="{% url 'delete_product' product.id %}" class="text-danger">Delete</a>
+                                    </small>
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>
