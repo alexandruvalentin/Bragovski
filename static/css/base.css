@@ -3,15 +3,16 @@ html {
 }
 
 body {
-    background: url('/media/hero-image.jpg') no-repeat center center fixed;
-    background-size: cover;
-    height: calc(100vh - 164px);
-    color: green;
+    height: calc(100vh - 80px);
     font-family: 'Kaisei HarunoUmi', serif;
 }
 
+.carousel-item img {
+    height: calc(100vh - 80px);
+}
+
 .follow-links.show {
-    display:flex;
+    display: flex;
 }
 
 /* from Bulma */
