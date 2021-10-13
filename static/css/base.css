@@ -64,8 +64,8 @@ body {
     color: white;
 }
 
-.text-white {
-    color: #fff !important;
+.border-white {
+    border: -0.8px solid #fff !important;
 }
 
 .border-black {
