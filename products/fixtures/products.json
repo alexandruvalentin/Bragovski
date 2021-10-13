@@ -367,5 +367,245 @@
             "category": 2,
             "image": "worker.jpg"
         }
+    },
+    {
+        "pk": 38,
+        "model": "products.product",
+        "fields": {
+            "name": "Hustle Festival",
+            "price": 53.99,
+            "category": 3,
+            "image": "event1.jpg"
+        }
+    },
+    {
+        "pk": 39,
+        "model": "products.product",
+        "fields": {
+            "name": "Electric Castle",
+            "price": 53.99,
+            "category": 3,
+            "image": "event2.jpg"
+        }
+    },
+    {
+        "pk": 40,
+        "model": "products.product",
+        "fields": {
+            "name": "Electric Castle",
+            "price": 53.99,
+            "category": 3,
+            "image": "event3.jpg"
+        }
+    },
+    {
+        "pk": 41,
+        "model": "products.product",
+        "fields": {
+            "name": "Electric Castle",
+            "price": 53.99,
+            "category": 3,
+            "image": "event4.jpg"
+        }
+    },
+    {
+        "pk": 42,
+        "model": "products.product",
+        "fields": {
+            "name": "Electric Castle",
+            "price": 53.99,
+            "category": 3,
+            "image": "event5.jpg"
+        }
+    },
+    {
+        "pk": 43,
+        "model": "products.product",
+        "fields": {
+            "name": "Electric Castle",
+            "price": 53.99,
+            "category": 3,
+            "image": "event6.jpg"
+        }
+    },
+    {
+        "pk": 44,
+        "model": "products.product",
+        "fields": {
+            "name": "Electric Castle",
+            "price": 53.99,
+            "category": 3,
+            "image": "event7.jpg"
+        }
+    },
+    {
+        "pk": 45,
+        "model": "products.product",
+        "fields": {
+            "name": "Hustle Festival",
+            "price": 53.99,
+            "category": 3,
+            "image": "event8.jpg"
+        }
+    },
+    {
+        "pk": 46,
+        "model": "products.product",
+        "fields": {
+            "name": "Hustle Festival",
+            "price": 53.99,
+            "category": 3,
+            "image": "event9.jpg"
+        }
+    },
+    {
+        "pk": 47,
+        "model": "products.product",
+        "fields": {
+            "name": "Hustle Festival",
+            "price": 53.99,
+            "category": 3,
+            "image": "event10.jpg"
+        }
+    },
+    {
+        "pk": 48,
+        "model": "products.product",
+        "fields": {
+            "name": "Hustle Festival",
+            "price": 53.99,
+            "category": 3,
+            "image": "event11.jpg"
+        }
+    },
+    {
+        "pk": 49,
+        "model": "products.product",
+        "fields": {
+            "name": "Hustle Festival",
+            "price": 53.99,
+            "category": 3,
+            "image": "event12.jpg"
+        }
+    },
+    {
+        "pk": 50,
+        "model": "products.product",
+        "fields": {
+            "name": "Hustle Festival",
+            "price": 53.99,
+            "category": 3,
+            "image": "event13.jpg"
+        }
+    },
+    {
+        "pk": 51,
+        "model": "products.product",
+        "fields": {
+            "name": "Electric Castle",
+            "price": 53.99,
+            "category": 3,
+            "image": "event14.jpg"
+        }
+    },
+    {
+        "pk": 52,
+        "model": "products.product",
+        "fields": {
+            "name": "I Got You",
+            "price": 53.99,
+            "category": 4,
+            "image": "fine1.jpg"
+        }
+    },
+    {
+        "pk": 53,
+        "model": "products.product",
+        "fields": {
+            "name": "Hello Dear",
+            "price": 53.99,
+            "category": 4,
+            "image": "fine2.jpg"
+        }
+    },
+    {
+        "pk": 54,
+        "model": "products.product",
+        "fields": {
+            "name": "Don't Leave Me",
+            "price": 53.99,
+            "category": 4,
+            "image": "fine3.jpg"
+        }
+    },
+    {
+        "pk": 55,
+        "model": "products.product",
+        "fields": {
+            "name": "It's Love",
+            "price": 53.99,
+            "category": 4,
+            "image": "fine4.jpg"
+        }
+    },
+    {
+        "pk": 56,
+        "model": "products.product",
+        "fields": {
+            "name": "Mother Earth Origins",
+            "price": 53.99,
+            "category": 4,
+            "image": "fine5.jpg"
+        }
+    },
+    {
+        "pk": 57,
+        "model": "products.product",
+        "fields": {
+            "name": "Mother Earth - The Sequel",
+            "price": 53.99,
+            "category": 4,
+            "image": "fine6.jpg"
+        }
+    },
+    {
+        "pk": 58,
+        "model": "products.product",
+        "fields": {
+            "name": "Take It Or Leave It",
+            "price": 53.99,
+            "category": 4,
+            "image": "fine7.jpg"
+        }
+    },
+    {
+        "pk": 59,
+        "model": "products.product",
+        "fields": {
+            "name": "Maria",
+            "price": 53.99,
+            "category": 4,
+            "image": "fine8.jpg"
+        }
+    },
+    {
+        "pk": 60,
+        "model": "products.product",
+        "fields": {
+            "name": "Paul G. Lucaci",
+            "price": 53.99,
+            "category": 4,
+            "image": "fine9.jpg"
+        }
+    },
+    {
+        "pk": 61,
+        "model": "products.product",
+        "fields": {
+            "name": "Infinity",
+            "price": 53.99,
+            "category": 4,
+            "image": "fine10.jpg"
+        }
     }
 ]

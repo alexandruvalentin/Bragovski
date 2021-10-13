@@ -22,6 +22,7 @@
         <div class="product-container col-10 offset-1">
             <div class="row mt-1 mb-2"></div>
             <div class="row">
+                {% if request.get_full_path == '/products/' %}
                 {% for product in products|filter_shuffle %}
                 <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4">   
                     <div class="card h-100 border-0">
@@ -75,6 +76,61 @@
                 {% endif %}
 
                 {% endfor %}
+                {% else %}
+                {% for product in products %}
+                <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4">   
+                    <div class="card h-100 border-0">
+                        {% if product.image %}
+                        <a href="{% url 'product_detail' product.id %}">
+                            <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                        </a>
+                        {% else %}
+                        <a href="{% url 'product_detail' product.id %}">
+                            <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                        </a>
+                        {% endif %}
+                        <div class="card-body py-2 text-center">
+                            <p class="mb-0">{{ product.name }} - {{ product.category.friendly_name }} </p>
+                        </div>
+                        <div class="card-footer bg-white pt-0 border-0 text-center">
+                            <div class="row">
+                                <div class="col">
+                                    <a href="{% url 'product_detail' product.id %}" class="btn btn-lg btn-black rounded-0 text-uppercase py-1 mb-0">Purchase
+                                        Print</a>
+                                    {% if request.user.is_superuser %}
+                                    <small class="ml-3">
+                                        <a href="{% url 'edit_product' product.id %}">Edit</a> |
+                                        <a href="{% url 'delete_product' product.id %}" class="text-danger">Delete</a>
+                                    </small>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% if forloop.counter|divisibleby:1 %}
+                    <div class="col-12 d-sm-none mt-3 mb-3">
+                        <hr class="border-white">
+                    </div>
+                {% endif %}
+                {% if forloop.counter|divisibleby:2 %}
+                    <div class="col-12 d-none d-sm-block d-md-block d-lg-none mt-3 mb-3">
+                        <hr class="border-white">
+                    </div>
+                {% endif %}
+                {% if forloop.counter|divisibleby:2 %}
+                    <div class="col-12 d-none d-lg-block d-xl-none mt-3 mb-3">
+                        <hr class="border-white">
+                    </div>
+                {% endif %}
+                {% if forloop.counter|divisibleby:3 %}
+                    <div class="col-12 d-none d-xl-block mt-3 mb-3">
+                        <hr class="border-white">
+                    </div>
+                {% endif %}
+
+                {% endfor %}
+                {% endif %}
             </div>
         </div>
     </div>
