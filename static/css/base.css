@@ -4,7 +4,13 @@ html {
 
 body {
     height: calc(100vh - 80px);
-    font-family: 'Kaisei HarunoUmi', serif;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.navbar-brand img {
+    background: #000;
+    color: #fff;
+    width: 20%;
 }
 
 .carousel-item img {
@@ -94,6 +100,29 @@ body {
 
 .remove-item {
     cursor: pointer;
+}
+
+#footer {
+    background-color: rgb(230, 230, 230);
+}
+
+#footer ul li {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    color: rgb(153, 149, 149);
+}
+
+#footer ul li a:hover {
+    color: #000;
+}
+
+#footer p {
+    color: rgb(153, 149, 149);
 }
 
 /* ------------------------------- bootstrap toasts */
