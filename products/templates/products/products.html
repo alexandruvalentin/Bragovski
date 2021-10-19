@@ -6,8 +6,8 @@
 <div class="overlay"></div>
 <div class="container-fluid header-container pt-2 pb-2">
     <div class="row px-5">
-        <div class="col">
-            <h2 class="header-font">Photography >
+        <div class="col-12">
+            <h2 class="header-font pl-5 m-2">Photography >
                 {% if request.get_full_path == '/products/' %}All
                 {% elif request.get_full_path == '/products/?category=portraiture' %}Portraiture
                 {% elif request.get_full_path == '/products/?category=street_work' %}Street Work
@@ -19,13 +19,13 @@
 </div>
 <div class="container-fluid">
     <div class="row">
-        <div class="product-container col-10 offset-1">
+        <div class="product-container p-4 col-10 offset-1">
             <div class="row mt-1 mb-2"></div>
             <div class="row">
                 {% if request.get_full_path == '/products/' %}
                 {% for product in products|filter_shuffle %}
                 <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4">   
-                    <div class="card h-100 border-0">
+                    <div class="card h-100 border-0 rounded-0">
                         {% if product.image %}
                         <a href="{% url 'product_detail' product.id %}">
                             <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
@@ -79,7 +79,7 @@
                 {% else %}
                 {% for product in products %}
                 <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4">   
-                    <div class="card h-100 border-0">
+                    <div class="card h-100 border-0 rounded-0">
                         {% if product.image %}
                         <a href="{% url 'product_detail' product.id %}">
                             <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">

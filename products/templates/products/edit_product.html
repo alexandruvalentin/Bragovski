@@ -6,14 +6,14 @@
 <div class="container-fluid header-container pt-2 pb-2">
     <div class="row px-5">
         <div class="col-12 col-md-6">
-            <h1 class="header-font">Product Management</h1>
-            <h5 class="text-muted">Edit Product</h5>
+            <h1 class="header-font pl-5 m-2">Product Management</h1>
         </div>
     </div>
 </div>
-<div class="container">
+<div class="container p-4">
     <div class="row">
         <div class="col-12 col-md-6">
+            <h5 class="text-muted mb-4">Edit Product</h5>
             <form action="{% url 'edit_product' product.id %}" method="POST" class="form mb-2" enctype="multipart/form-data">
                 {% csrf_token %}
                 {% for field in form %}
