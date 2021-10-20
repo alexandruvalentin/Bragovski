@@ -3,7 +3,7 @@
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-white ml-2 mr-2" href="#" id="all-products-link"
                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Photography
+                Shop
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
                 <a href="{% url 'products' %}?category=portraiture" class="dropdown-item ">Portraiture</a>
@@ -14,12 +14,12 @@
         </li>
 
         <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link text-white ml-2 mr-2" href="#" id="studio-link">
+            <a class="logo-font font-weight-bold nav-link text-white ml-2 mr-2" href="{% url 'studio' %}" id="studio-link">
                 Studio</a>
         </li>
 
         <li class="nav-item">
-            <a class="logo-font font-weight-bold nav-link text-white ml-2 mr-2" href="#" id="about-link">
+            <a class="logo-font font-weight-bold nav-link text-white ml-2 mr-2" href="{% url 'about' %}" id="about-link">
                 About</a>
         </li>
 
