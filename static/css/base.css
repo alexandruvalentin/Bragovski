@@ -101,7 +101,7 @@ label, th, td {
 }
 
 .border-white {
-    border: -0.8px solid #fff !important;
+    border: 1px solid #fff !important;
 }
 
 .border-black {
