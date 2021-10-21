@@ -17,6 +17,11 @@
         </div>
     </div>
 </div>
+
+<div class="scrollTop" onclick="scrollToTop();">
+    <i class="fas fa-arrow-up"></i>
+</div>
+
 <div class="container-fluid">
     <div class="row">
         <div class="product-container p-4 col-10 offset-1">
@@ -141,4 +146,20 @@
         </div>
     </div>
 </div>
+{% endblock %}
+
+{% block postloadjs %}
+<script type="text/javascript">
+    window.addEventListener('scroll', function(){
+      var scroll = document.querySelector('.scrollTop');
+      scroll.classList.toggle('active', window.pageYOffset > 800)
+    })
+
+    function scrollToTop(){
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      })
+    }
+</script>
 {% endblock %}

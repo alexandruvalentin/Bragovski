@@ -167,6 +167,33 @@ body {
     height: 2px;
 }
 
+.scrollTop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 445px;
+    right: 45px;
+    width: 55px;
+    height: 55px;
+    background: #fff;
+    cursor: pointer;
+    z-index: 100000;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.25s;
+}
+
+.scrollTop i {
+    font-size: 1.25rem;
+}
+
+.scrollTop.active {
+    bottom: 45px;
+    visibility: visible;
+    opacity: 1;
+}
+
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0; 
