@@ -7,6 +7,10 @@ body {
     font-family: 'Fjalla One', sans-serif;
 }
 
+label, th, td {
+    color: #fff;
+}
+
 .navbar-brand img {
     background: #000;
     color: #fff;
@@ -182,6 +186,11 @@ body {
     visibility: hidden;
     opacity: 0;
     transition: 0.25s;
+}
+
+.scrollTop:hover {
+    background: #000;
+    color: #fff;
 }
 
 .scrollTop i {
