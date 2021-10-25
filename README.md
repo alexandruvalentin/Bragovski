@@ -41,6 +41,30 @@ Bragovski is a website that presents a photographer's portfolio as an online sho
 
 ### __User Stories__
 
+### As a shopper:
+  - "I want to view a list of products/services so that I can select and purchase."
+  - "I want to view individual product/service details in order to decide what I like and suit my budget best."
+  - "I want to quickly identify and access products so that I can learn more about what I want."
+  - "I want to easily view the total of my purchase at any time so that I can avoid going over budget."
+  - "I want to explore items by category so that I can easily find what I'm interested in."
+  - "I want to view the total items in my bag so that I can identify the total cost and the items that I will receive with the order."
+  - "I want to feel that my personal details are secure so that I can confidently provide them to make a purchase."
+  - "I want to view an order confirmation after checkout so that I can double-check for any mistakes."
+  - "I want to receive an email of confirmation after checkout so that I can keep a confirmation of what I've just ordered for my records."
+
+### As a website user:
+  - "I want to easily register for an account so that I can save my personal/delivery information."
+  - "I want to easily log in and out so that I can quickly access my personal account information."
+  - "I want to easily recover my password in case I forget it so that I can quickly recover access to my account."
+  - "I want to receive a confirmation email after registration so that I can verify that it was successful."
+  - "I want to be able to update my user profile information so that I can easily change delivery address, contact name or card details."
+
+### As a site admin:
+  - "I want to be able to add new products so that I can keep present the new products available."
+  - "I want to be able to update/remove products so that I can change/delete product criteria."
+  - "I want to be able to give admin rights so that I can allow other users to administer the website when necessary."
+
+
 ### __Structure__
 
 The website is designed to be intuitive and learnable
