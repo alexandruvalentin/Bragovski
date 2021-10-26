@@ -10,16 +10,15 @@ def testimonials(request):
     """ A view to return the testimonials page and/or add testimonials """
 
     testimonials = Testimonials.objects.all()
+    user = request.user
 
     if request.method == "POST":
         form = TestimonialsForm(request.POST)
         full_name = request.POST.get('full_name')
-        user = request.user
         rate = request.POST.get('rate')
         comment = request.POST.get('comment')
         Testimonials(full_name=full_name, user=user, rate=rate,
-                     comment=comment)
-        print(comment)
+                     comment=comment).save()
     else:
         form = TestimonialsForm()
 

@@ -9,7 +9,8 @@ class Testimonials(models.Model):
     class Meta:
         verbose_name_plural = "Testimonials"
 
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE,
+                             related_name='testimonials')
     full_name = models.CharField(max_length=50, null=False, blank=False)
     comment = models.TextField(max_length=543)
     rate = models.IntegerField(default=0)

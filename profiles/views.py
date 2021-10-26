@@ -25,10 +25,13 @@ def profile(request):
         form = UserProfileForm(instance=profile)
     orders = profile.orders.all()
 
+    testimonials = request.user.testimonials.all()
+
     template = 'profiles/profile.html'
     context = {
         'form': form,
         'orders': orders,
+        'testimonials': testimonials,
         'on_profile_page': True
     }
 

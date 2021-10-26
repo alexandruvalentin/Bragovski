@@ -63,6 +63,12 @@
         </div>
     </div>
 </div>
+{% for testimonial in testimonials %}
+<p class="text-white">{{ testimonial.user }}</p>
+<p class="text-white">{{ testimonial.full_name }}</p>
+<p class="text-white">{{ testimonial.comment }}</p>
+<p class="text-white">{{ testimonial.rate }}</p>
+{% endfor %}
 {% endblock %}
 
 {% block postloadjs %}

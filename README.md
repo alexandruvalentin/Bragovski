@@ -13,14 +13,16 @@ Bragovski is a website that presents a photographer's portfolio as an online sho
 ### __Business Goals__
 
   To build an application that:
+-   is a secure online e-commerce store 
 -   allows people to explore an artist's portfolio.
--   presents details about the artist's studio and vision.
--   stands as an online shop that allows users to shop for the artist's work.
+-   presents the artist's studio and vision in detail.
+-   generates revenue by selling presented products.
 
 ### __Customer Goals__
 
 -	learn about the artist and his work.
 -	create their own account which they can use to purchase items.
+- feel safe about making purchases.
 -	manage their personal details and delivery information via an account panel.
 
 ### __Scope__
@@ -51,6 +53,8 @@ Bragovski is a website that presents a photographer's portfolio as an online sho
   - "I want to feel that my personal details are secure so that I can confidently provide them to make a purchase."
   - "I want to view an order confirmation after checkout so that I can double-check for any mistakes."
   - "I want to receive an email of confirmation after checkout so that I can keep a confirmation of what I've just ordered for my records."
+  - "I want to look up testimonials from other people that have worked with the artist so that I can possibly book a studio session in the future."
+  - "I want to be able to add testimonials to the section in order to share the experience I had working with the artist."
 
 ### As a website user:
   - "I want to easily register for an account so that I can save my personal/delivery information."
@@ -78,7 +82,6 @@ The website is designed to be intuitive and learnable
 ### __Skeleton__
 
 * Wireframes
-
 
 ## __Design Choices__
 
