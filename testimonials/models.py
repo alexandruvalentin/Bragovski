@@ -5,6 +5,7 @@ from django.contrib.auth.models import User
 
 
 class Testimonials(models.Model):
+
     class Meta:
         verbose_name_plural = "Testimonials"
 
@@ -15,4 +16,4 @@ class Testimonials(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return self.user.username
+        return str(self.id)

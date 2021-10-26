@@ -1,6 +1,7 @@
 from django.contrib import admin
 from .models import Testimonials
 
+
 class TestimonialsAdmin(admin.ModelAdmin):
     list_display = (
         'user',
@@ -10,6 +11,11 @@ class TestimonialsAdmin(admin.ModelAdmin):
         'created_at',
     )
 
+    readonly_fields = (
+        'created_at',
+    )
+
     ordering = ('created_at',)
+
 
 admin.site.register(Testimonials, TestimonialsAdmin)
