@@ -63,12 +63,33 @@
         </div>
     </div>
 </div>
-{% for testimonial in testimonials %}
-<p class="text-white">{{ testimonial.user }}</p>
-<p class="text-white">{{ testimonial.full_name }}</p>
-<p class="text-white">{{ testimonial.comment }}</p>
-<p class="text-white">{{ testimonial.rate }}</p>
-{% endfor %}
+<div class="container p-4">
+    <div class="row">
+        <div class="col-12 col-md-6 text-white">
+            {% for testimonial in testimonials %}
+            <div class="testimonial-heading d-flex">
+                <p class="text-capitalize"><i class="fas fa-user mr-1"></i>
+                    {% if testimonial.full_name %}
+                    {{ testimonial.full_name }}
+                    ({{ testimonial.user.username }})
+                    {% else %}
+                    {{ testimonial.user.username }}
+                    {% endif %}
+                </p>
+                <p class="ml-4 mr-4"><i class="fas fa-clock mr-1"></i>{{ testimonial.created_at }}</p>
+                <i class="fas fa-star {% if testimonial.rate > 4 %} checked {% endif %}" style="float: right;"></i>
+                <i class="fas fa-star {% if testimonial.rate > 3 %} checked {% endif %}" style="float: right;"></i>
+                <i class="fas fa-star {% if testimonial.rate > 2 %} checked {% endif %}" style="float: right;"></i>
+                <i class="fas fa-star {% if testimonial.rate > 1 %} checked {% endif %}" style="float: right;"></i>
+                <i class="fas fa-star {% if testimonial.rate > 0 %} checked {% endif %}" style="float: right;"></i>
+            </div>
+            <div class="testimonial-body">
+                <p>{{ testimonial.comment }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
 {% endblock %}
 
 {% block postloadjs %}

@@ -12,7 +12,7 @@ class TestimonialsForm(forms.ModelForm):
         super().__init__(*args, **kwargs)
         placeholders = {
             'full_name': 'Name',
-            'comment': 'Type...',
+            'comment': 'Write your comment...',
             'rate': '0',
         }
 

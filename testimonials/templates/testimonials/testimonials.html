@@ -41,7 +41,15 @@
                 {% csrf_token %}
                 {{ form | crispy }}
                 {% if user.is_authenticated %}
-                <button class="btn btn-white rounded-0 text-uppercase float-right">Submit</button>
+                <div class="col-12 text-right">
+                <button class="btn btn-white rounded-0 text-uppercase float-right" value="Submit">Submit</button>
+                <a href="{% url 'profile' %}" class="btn btn-black rounded-0 mr-1">
+                    <span class="icon">
+                        <i class="fas fa-chevron-left"></i>
+                    </span>
+                    <span class="text-uppercase">Go To Profile</span>
+                </a>
+                </div>
                 {% else %}
                 <p class="text-white">You must <a href="{% url 'account_login' %}">log in</a> to submit testimonials.</p>
                 {% endif %}
