@@ -269,7 +269,8 @@ This website presents 9 applications in order: home, products, bag, checkout, pr
 
 # 5. Testing
 
- - ### Click [here](https://github.com/alexandruvalentin/Bragovski/blob/main/TEST.md) for the full testing process.
+ - ### Click [here](TEST.md) for the full testing process.
+ 
 
 # 6. Deployment
 
