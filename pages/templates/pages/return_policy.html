@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% load static %}
+{% block extra_title %}| RETURNS {% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container-fluid header-container pt-2 pb-2">
+    <div class="row px-5">
+        <div class="col">
+            <h2 class="header-font pl-5 m-2">Return Policy</h2>
+        </div>
+    </div>
+</div>
+    <div class="container pt-4 text-white">
+        <div class="row">
+            <div class="col-12">
+                <h5 class="text-uppercase">Returning has never been easier...</h5>
+            </div>
+            <div class="col-12">
+                <ul>
+                    <li class="list-item p-3">
+                        <p>Any item will be suitable for return no later than 30 days from purchase.</p>
+                    </li>
+                    <li class="list-item p-3">
+                        <p>BRAGOVSKI offers free returns.</p>
+                    </li>
+                    <li class="list-item p-3">
+                        <p>
+                            Products returned must display flawless condition.
+                            (Exception: damaged in the delivery process)
+                        </p>
+                    </li>
+                    <li class="list-item p-3">
+                        <p>
+                            All customers are entitled to 1(one) free return.
+                            After that, standard fees will apply.
+                        </p>
+                    </li>
+                    <li class="list-item p-3">
+                        <p>
+                            Processing of refunds will take 3-5 working days from the moment we
+                            receive the returning item. We will keep you posted via email.
+                        </p>
+                    </li>
+                    <li class="list-item p-2">
+                        <p>
+                            Once returning item is accepted, the original transaction will be reverted.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+{% endblock %}

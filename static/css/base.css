@@ -172,6 +172,14 @@ label, th, td {
     height: 2px;
 }
 
+#accordionExample .card {
+    background: rgb(230, 230, 230);
+}
+
+#accordionExample .card-body {
+    background: #fff;
+}
+
 .scrollTop {
     display: flex;
     justify-content: center;

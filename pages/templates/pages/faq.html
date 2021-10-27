@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+{% load static %}
+{% block extra_title %}| FAQ {% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+<div class="container-fluid header-container pt-2 pb-2">
+    <div class="row px-5">
+        <div class="col">
+            <h2 class="header-font pl-5 m-2">FAQ</h2>
+        </div>
+    </div>
+</div>
+<div class="container p-4">
+    <h5 class="text-white text-center">Delivery</h5>
+    <div class="row">
+        <div class="col-8 offset-2">
+            <div class="accordion" id="accordionExample">
+                <div class="card rounded-0">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-block text-left" type="button" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What is the delivery time frame?
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            A confirmation email will be sent your way once the order has shipped. Usual ETA is 3 business days.
+                        </div>
+                    </div>
+                </div>
+                <div class="card rounded-0">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-block text-left" type="button"
+                                data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                Where's is the confirmation email?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Confirmation emails are generated automatically within the first 24 hours. Always check your Spam folder as well.
+                        </div>
+                    </div>
+                </div>
+                <div class="card rounded-0">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-block text-left" type="button"
+                                data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                Can I cancel my order?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            Unfortunately, an order can't be cancelled once it's processed.
+                            Fortunately, our <a href="{% url 'return_policy' %}">return policies</a> are pretty neat. Have a look.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h5 class="text-white text-center mt-4">Returns</h5>
+    <div class="row">
+        <div class="col-8 offset-2">
+            <div class="accordion" id="accordionExample">
+                <div class="card rounded-0">
+                    <div class="card-header" id="headingFour">
+                        <h2 class="mb-0">
+                            <button class="btn btn-block text-left" type="button" data-toggle="collapse"
+                                data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                How long before I can't return an item?
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            30 days
+                        </div>
+                    </div>
+                </div>
+                <div class="card rounded-0">
+                    <div class="card-header" id="headingFive">
+                        <h2 class="mb-0">
+                            <button class="btn btn-block text-left" type="button"
+                                data-toggle="collapse" data-target="#collapseFive" aria-expanded="false"
+                                aria-controls="collapseFive">
+                                Delivery damaged my item. What now?
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                        <div class="card-body">
+                            You will get a free return and refund.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
