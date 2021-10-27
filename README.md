@@ -149,13 +149,95 @@ The website is designed to be intuitive and learnable
 
 ![Database Schema](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/db-schema.png)
 
+# 3. Features
 
+## Existing Features
+This website presents 9 applications in order: home, products, bag, checkout, profiles, studio, about, testimonials and pages.
+
+1. Navigation Bar(presented in Mobile View by hamburger icon)
+ - Brand name(clickable logo) is bold and visible. It redirects to the home page.
+ - Profile icon that takes the user to the profile management page.
+ - Shopping bag icon that redirects to the user's order summary.
+
+2. Footer
+ - Social media external links.
+ - Relevant FAQ and Return Policy CTAs.
+ - Credits.
+
+3. Home Page
+ - Instantly presents the idea behind the website and the purpose it serves.
+ - The carousel shuffles random images from the artist's portfolio to arouse curiosity.
+ - Big Call to Action button that brings the user to the products page(all categories presented together, filtered by shuffle).
+
+4. Product Page
+ - Presents all the items available for sale in the shop.
+ - Displays the image and the name of the product.
+ - CTA button to product's details.
+ - Back to Top button to facilitate navigation across multiple page objects.
+ - Products can be sorted by category from the navigation menu.
+
+5. Product Detail Page
+ - Shows information about the product such as: image, name, price.
+ - Quantity of product can be selected and also adjusted from the shopping bag.
+ - CTA Button to return to Product Page.
+
+6. Shopping Bag Page
+ - Presents an overview of all the products in the user's bag. All details included.
+ - Items in the bag can be managed.
+ - Displays the total cost of the purchase.
+ - CTA button to return to the Product Page.
+ - CTA Button to continue to checkout.
+
+7. Checkout Page
+ - Presents an order summary
+ - Gives the option to save order details to user's profile if they're logged in.
+ - Presents a checkout form that must be valid in order to be submitted.
+ - Credit card test details: 4242 4242 4242 4242 42 42 42424.
+ - Webhook used to secure the payment.
+ - CTA button to shopping bag.
+ - CTA Button to complete order.
+
+8. Confirmation Page
+ - Displays a Thank You messages.
+ - Provides the user with all the details of their order.
+ - CTA button to see the studio presented in the Studio Page.
+
+9. Profile Page
+ - Accessible to users that have an account, it displays their information.
+ - Form available to update personal information.
+ - Order history section that show all the past orders with all their details.
+
+10. Testimonials Page
+  - Displays all the users testimonials
+  - Provides a form that can users can complete to submit testimonials.
+  - Testimonials can be managed from the profile page.
+
+11. Return Policy Page
+ - Contains information about BRAGOVSKI's order return policy.
+
+12. FAQ Page
+ - Contains two sections of relevant questions about Delivery and Returns.
+
+13. Django-Allauth Pages
+  - Sign Up
+    - Displays a form that creates an account for the website.
+  - Log In
+    - Displays a form that logs in an existing user.
+  - Forgot Passowrd
+    - Allows users to reset their password.
+  - Log Out
+    - Logs the user out of the session
+
+## Features to be Implemented
+  - Add different sizes to the prints.
+  - Log In with social media accounts.
+  - Personal blog(in writing, about photography) page.
 
 
 ## __Technologies Used__
 
 - Workspace
-
+  * [Gitpod](https://gitpod.io/) was used as Integrated Development Environment
 
 - Languages
   * [HTML5](https://en.wikipedia.org/wiki/HTML5)
@@ -164,6 +246,7 @@ The website is designed to be intuitive and learnable
   * [Python](https://en.wikipedia.org/wiki/Python_(programming_language))
 
 - Frameworks & Libraries
+  * [Django](https://www.djangoproject.com/)
   * [Font Awesome](https://fontawesome.com/) icons were used to improve aesthetics and [UX](#ux)
   * [Google Fonts](https://fonts.google.com/) was used as the main font source
   * [Bootstrap v4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/) was used for its responsiveness and styling classes
