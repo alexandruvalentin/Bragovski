@@ -83,22 +83,41 @@ The website is designed to be intuitive and learnable
 
 * Wireframes
 
-### Mobile 
-* [Home](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-home.png)
-* [Shop](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-shop.png)
-* [Product Detail](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-proddetails.png)
-* [Shopping Bag](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-bag.png)
-* [Checkout](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-checkout.png)
-* [Confirmation](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-confirmation.png)
-* [Profile](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-profile.png)
-* [Studio](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-studio.png)
-* [About](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-about.png)
-* [Testimonials](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-testimonials.png)
+- ### Mobile 
+  * [Home](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-home.png)
+  * [Shop](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-shop.png)
+  * [Product Detail](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-proddetails.png)
+  * [Shopping Bag](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-bag.png)
+  * [Checkout](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-checkout.png)
+  * [Confirmation](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-confirmation.png)
+  * [Profile](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-profile.png)
+  * [Studio](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-studio.png)
+  * [About](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-about.png)
+  * [Testimonials](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-testimonials.png)
 
-### Tablet
+- ### Tablet
+  * [Home](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/tablet-home.png)
+  * [Shop](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/tablet-shop.png)
+  * [Product Detail](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/tablet-proddetails.png)
+  * [Shopping Bag](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/tablet-bag.png)
+  * [Checkout](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/tablet-checkout.png)
+  * [Confirmation](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/tablet-confirmation.png)
+  * [Profile](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/tablet-profile.png)
+  * [Studio](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/tablet-studio.png)
+  * [About](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/tablet-about.png)
+  * [Testimonials](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/tablet-testimonials.png)
 
-### Desktop
-
+- ### Desktop
+  * [Home](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/desktop-home.png)
+  * [Shop](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/desktop-shop.png)
+  * [Product Detail](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/tabledesktop-proddetails.png)
+  * [Shopping Bag](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/desktop-bag.png)
+  * [Checkout](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/desktop-checkout.png)
+  * [Confirmation](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/desktop-confirmation.png)
+  * [Profile](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/desktop-profile.png)
+  * [Studio](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/desktop-studio.png)
+  * [About](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/desktop-about.png)
+  * [Testimonials](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/desktop-testimonials.png)
 
 ## __Design Choices__
 
