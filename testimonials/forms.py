@@ -3,7 +3,7 @@ from .models import Testimonials
 
 
 class TestimonialsForm(forms.ModelForm):
-    
+
     class Meta:
         model = Testimonials
         fields = ['full_name', 'comment', 'rate']

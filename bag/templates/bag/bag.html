@@ -15,38 +15,7 @@
 <div class="container p-4 text-white">
     <div class="col">
         {% if bag_items %}
-        <div class="d-block d-md-none">
-            <div class="row">
-                <div class="col">
-                    {% include "bag/bag_total.html" %}
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    {% include "bag/checkout_buttons.html" %}
-                    <p class="text-muted mb-4">A summary of your bag contents is below.</p>
-                </div>
-            </div>
-            {% for item in bag_items %}
-                <div class="row">
-                    <div class="col-12 col-sm-6 mb-2">
-                        {% include "bag/product_image.html" %}
-                    </div>
-                    <div class="col-12 col-sm-6 mb-2">
-                        {% include "bag/product_info.html" %}
-                    </div>
-                    <div class="col-12 col-sm-6 order-sm-last">
-                        <p class="my-0">Price Each: ${{ item.product.price }}</p>
-                        <p><strong>Subtotal:</strong>${{ item.product.price | calc_subtotal:item.quantity }}</p>
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        {% include "bag/quantity_form.html" %}
-                    </div>
-                </div>
-                <div class="row"><div class="col"><hr class="border-white"></div></div>
-            {% endfor %}
-        </div>
-        <div class="table-responsive rounded d-none d-mb-block">
+        <div class="table-responsive rounded">
             <table class="table table-sm table-borderless">
                 <thead class="text-white">
                     <tr>
@@ -59,7 +28,7 @@
                     </tr>
                 </thead>
                 {% for item in bag_items %}
-                <tr>
+                <tr class="">
                     <td class="py-3 align-middle text-center text-white">
                         <a class="remove-item" id="remove_{{ item.item_id }}"><i
                                 class="fas fa-times fa-lg my-auto"></i></a>
