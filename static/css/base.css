@@ -172,11 +172,13 @@ label, th, td {
     height: 2px;
 }
 
-#accordionExample .card {
+#accordionExample .card, 
+#accordionExample2 .card {
     background: rgb(230, 230, 230);
 }
 
-#accordionExample .card-body {
+#accordionExample .card-body,
+#accordionExample2 .card-body {
     background: #fff;
 }
 
