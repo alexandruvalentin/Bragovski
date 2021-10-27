@@ -8,9 +8,9 @@ Bragovski is a website that presents a photographer's portfolio as an online sho
 
 ![Am I Responsive](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/amiresponsive.jpg)
 
-## UX
+# 1. UX
 
-### __Business Goals__
+## __Business Goals__
 
   To build an application that:
 -   is a secure online e-commerce store 
@@ -18,14 +18,14 @@ Bragovski is a website that presents a photographer's portfolio as an online sho
 -   presents the artist's studio and vision in detail.
 -   generates revenue by selling presented products.
 
-### __Customer Goals__
+## __Customer Goals__
 
 -	learn about the artist and his work.
 -	create their own account which they can use to purchase items.
 - feel safe about making purchases.
 -	manage their personal details and delivery information via an account panel.
 
-### __Scope__
+## __Scope__
 
 * __Functional requirements:__
 
@@ -41,7 +41,7 @@ Bragovski is a website that presents a photographer's portfolio as an online sho
     -	Mixed media content for easy understanding of concepts presented;
     -	CTAs;
 
-### __User Stories__
+## __User Stories__
 
 ### As a shopper:
   - "I want to view a list of products/services so that I can select and purchase."
@@ -69,7 +69,7 @@ Bragovski is a website that presents a photographer's portfolio as an online sho
   - "I want to be able to give admin rights so that I can allow other users to administer the website when necessary."
 
 
-### __Structure__
+## __Structure__
 
 The website is designed to be intuitive and learnable
 
@@ -79,7 +79,7 @@ The website is designed to be intuitive and learnable
 2.	Information architecture:
 -	The information is structured in nested lists.
 
-### __Skeleton__
+## __Skeleton__
 
 * Wireframes
 
@@ -121,23 +121,34 @@ The website is designed to be intuitive and learnable
 
 ## __Design Choices__
 
+* Color Scheme
+  - The four non-colors that I chose reflect the artist's passion for shooting raw, black and white photography. The palette creates a calm environment that brings out the photographies displayed by enhancing contrast.
 
+![Color Palette](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/palette.png)
 
 * Typography
 
+  * One general font was used for this project, with a ```serif``` fallback.
+    * [Fjalla One](https://fonts.google.com/specimen/Fjalla+One).
 
 * Media
   
-  * Images used throughout the project are relevant to the purpose of the website.
-  * All images have been resized and compressed in order to boost the UX flow.
+  * Images used are relevant to the purpose of the website.
+  * All images have been resized and compressed in order to boost UX flow.
 
 * Iconography
-  * Icons have been used throughout the website in order to boost the UX efficiency.
+  * Icons have been used throughout the website in order to boost UX efficiency.
 
-## __Features__
+# 2. Database
 
+## Database
+- During development: [sqlite3](https://sqlite.org/index.html) provided by Django by default
+- For deployment: [PostgreSQL](https://www.postgresql.org/) provided by Heroku
 
-## __Database__
+## DB Schema
+
+![Database Schema](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/db-schema.png)
+
 
 
 
