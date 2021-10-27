@@ -14,11 +14,15 @@ def testimonials(request):
 
     if request.method == "POST":
         form = TestimonialsForm(request.POST)
-        full_name = request.POST.get('full_name')
-        rate = request.POST.get('rate')
-        comment = request.POST.get('comment')
-        Testimonials(full_name=full_name, user=user, rate=rate,
-                     comment=comment).save()
+        if form.is_valid():
+            full_name = request.POST.get('full_name')
+            rate = request.POST.get('rate')
+            comment = request.POST.get('comment')
+            Testimonials(full_name=full_name, user=user, rate=rate,
+                         comment=comment).save()
+        else:
+            messages.error(request, 'Failed to add testimonial. \
+                           Please ensure the form is valid.')
     else:
         form = TestimonialsForm()
 
