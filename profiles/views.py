@@ -80,8 +80,8 @@ def delete_testimonial(request, testimonial_id):
     """
     Delete testimonial from the store
     """
-    if not request.user.is_superuser:
-        messages.error(request, 'Sorry, only store owners can do that.')
+    if not request.user.is_authenticated:
+        messages.error(request, 'Sorry, you have to log in to do that.')
         return redirect(reverse('home'))
 
     testimonial = get_object_or_404(Testimonials, pk=testimonial_id)

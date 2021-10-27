@@ -83,6 +83,23 @@ The website is designed to be intuitive and learnable
 
 * Wireframes
 
+### Mobile 
+* [Home](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-home.png)
+* [Shop](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-shop.png)
+* [Product Detail](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-proddetails.png)
+* [Shopping Bag](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-bag.png)
+* [Checkout](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-checkout.png)
+* [Confirmation](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-confirmation.png)
+* [Profile](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-profile.png)
+* [Studio](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-studio.png)
+* [About](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-about.png)
+* [Testimonials](https://github.com/alexandruvalentin/Bragovski/blob/main/docs/wireframes/mobile-testimonials.png)
+
+### Tablet
+
+### Desktop
+
+
 ## __Design Choices__
 
 
