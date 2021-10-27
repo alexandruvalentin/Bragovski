@@ -375,7 +375,7 @@ label, th, td {
         font-size: 3.5rem;
     }
     /* Header Font */
-    .header-font {
+    .header-font, .display-4 {
         font-size: 2rem;
         padding-left: 0.5rem !important;
     }
@@ -389,6 +389,9 @@ label, th, td {
     /* Shopping Bag */
     .btn-lg {
         font-size: 1rem;
+    }
+    .text-white {
+        padding-left: 0.5rem;
     }
 }
 
@@ -413,5 +416,9 @@ label, th, td {
     /* Shopping Bag */
     .btn-lg {
         font-size: .55rem;
+    }
+
+    .increment-qty, .decrement-qty {
+        padding: .25rem .5rem !important;
     }
 }
